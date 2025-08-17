@@ -6,7 +6,7 @@ This project is a Machine Learning-based solution to detect fraudulent credit ca
 
 ## 📌 Features
 
-- Trained a **Random Forest Classifier** model to detect fraudulent transactions.
+- Trained a **XGBoost** model to detect fraudulent transactions.
 - Applied **SMOTE** to resolve class imbalance.
 - Evaluated models using Accuracy, Precision, Recall, F1 Score, and ROC AUC.
 - Built an interactive frontend with **Streamlit**.
@@ -19,7 +19,7 @@ This project is a Machine Learning-based solution to detect fraudulent credit ca
 
 ## 🧠 Model Used
 
-- **Random Forest Classifier**
+- **XGBoost**
 - Dataset balanced using **SMOTE (Synthetic Minority Over-sampling Technique)**
 - Dataset used: `creditcard.csv` from Kaggle
 
@@ -27,7 +27,7 @@ This project is a Machine Learning-based solution to detect fraudulent credit ca
 
 ## 📊 Model Performance
 
-| Metric     | Random Forest |
+| Metric     | XGBoost |
 |------------|----------------|
 | Accuracy   | 0.9995         |
 | Precision  | 0.87           |
@@ -59,7 +59,7 @@ This project is a Machine Learning-based solution to detect fraudulent credit ca
 | File Name         | Description                             |
 |------------------|-----------------------------------------|
 | `app.py`          | Streamlit app code                      |
-| `fraud_model.pkl` | Trained Random Forest model             |
+| `fraud_model_xgb1.pkl` | Trained Random Forest model             |
 | `creditcard.csv`  | Dataset (not uploaded — from Kaggle)    |
 | `README.md`       | Project documentation                   |
 
